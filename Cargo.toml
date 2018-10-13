@@ -1,0 +1,12 @@
+[package]
+name = "mepuru"
+version = "0.1.0"
+authors = ["Hanaasagi <ambiguous404@gmail.com>"]
+
+[lib]
+name = "mepuru"
+crate-type = ["cdylib"]
+
+[dependencies]
+url = "1.7"
+pyo3 = { version = "0.4", features = ["extension-module"] }
